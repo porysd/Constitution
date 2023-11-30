@@ -8,7 +8,9 @@ body {
     background-position: center;
     background-attachment: fixed;
     color: #333;
+    cursor: url('cursor1.png'),auto;
 }
+
 
 header {
     background-image: url('ph1.jpg');
