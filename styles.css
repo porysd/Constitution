@@ -59,19 +59,23 @@ img {
 
 #spanish-era img {
     width: 500px;
+    border-radius: 20px;
 }
 
 #japanese-era img {
     width: 500px;
+    border-radius: 20px;
 
 }
 
 .post img{
     width: 500px;
+    border-radius: 20px;
 }
 
 .martial img {
     width: 240px;
+    border-radius: 20px;
 }
 
 p {
