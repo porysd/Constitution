@@ -3,41 +3,53 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-image: url('bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
 }
 
 header {
-    background-image: url('ph.jpg');
+    background-image: url('ph1.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 1em;
+    padding: 3em;
     position: relative;
-    height: 200px;
-    
+    height: 250px;
 }
 
-h1{
-    color: black;
-    -webkit-text-fill-color: white; 
-    -webkit-text-stroke: 1px black;
-    margin-top: 70px;
+h1 {
+    color: whitesmoke;
+    margin-top: 100px;
     text-shadow:
       3px 3px 2px #000,
       -3px 3px 2px #000,
       -3px -3px 0 #000,
       3px -3px 0 #000;
-} 
+}
 
 
 h2 {
     color: #333;
+    margin-top: 20px;
 }
 
 section {
-    margin: 20px;
+    margin: 40px 20px;
     text-align: justify;
     overflow: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd; 
+}
+h3 {
+    text-decoration: underline;
+    color: #555;
 }
 
 img {
@@ -64,5 +76,6 @@ img {
 
 p {
     margin-bottom: 15px;
+    color: #555;
 }
 
