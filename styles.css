@@ -14,11 +14,12 @@ header {
     padding: 1em;
     position: relative;
     height: 200px;
+    
 }
 
-h1 {
+h1{
     color: black;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: white; 
     -webkit-text-stroke: 1px black;
     margin-top: 70px;
     text-shadow:
@@ -26,7 +27,8 @@ h1 {
       -3px 3px 2px #000,
       -3px -3px 0 #000,
       3px -3px 0 #000;
-}
+} 
+
 
 h2 {
     color: #333;
@@ -43,47 +45,24 @@ img {
     margin-left: 20px;
 }
 
-#spanish-era img,
-#japanese-era img,
-.post img {
-    max-width: 100%; /* Ensure images don't exceed the width of their container */
-    height: auto; /* Maintain aspect ratio */
+#spanish-era img {
+    width: 500px;
+}
+
+#japanese-era img {
+    width: 500px;
+
+}
+
+.post img{
+    width: 500px;
 }
 
 .martial img {
-    max-width: 100%;
-    height: auto;
-    width: 100%; /* Adjust width for full-width images on smaller screens */
+    width: 240px;
 }
 
 p {
     margin-bottom: 15px;
 }
 
-/* Media queries for responsive design */
-@media screen and (max-width: 768px) {
-    header {
-        height: 150px; /* Adjust header height for smaller screens */
-    }
-
-    h1 {
-        margin-top: 50px; /* Adjust margin-top for smaller screens */
-    }
-
-    img {
-        float: none;
-        margin: 0;
-    }
-
-    #spanish-era img,
-    #japanese-era img,
-    .post img {
-        width: 100%; /* Make images full-width on smaller screens */
-    }
-
-    .martial img {
-        width: 100%;
-    }
-}
-
-/* Add more media queries as needed for different screen sizes */
