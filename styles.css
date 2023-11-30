@@ -92,7 +92,7 @@ footer h2{
 }
 
 #references, #creator-info{
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 #references p, #creator-info p{
@@ -111,5 +111,5 @@ footer h2{
 }
 
 .social-icon img {
-    width: 30px;
+    width: 40px;
 }
